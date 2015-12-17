@@ -4,13 +4,13 @@ public class Solution {
             return false;
         }
         
-        HashMap map = new HashMap();
+        Set set = new HashSet();
         
         for(int i = 0; i < nums.length; i++){
-            if(map.containsKey(nums[i])){
+            if(set.contains(nums[i])){
                 return true;
             }
-            map.put(nums[i], i);
+            set.add(nums[i]);
         }
         
         return false;
