@@ -22,5 +22,6 @@ You may assume that Teemo attacks at the very beginning of a specific time point
     So you finally need to output 3.
 
 **Note:**
+
 1. You may assume the length of given time series array won't exceed 10000.
 2. You may assume the numbers in the Teemo's attacking time series and his poisoning time duration per attacking are non-negative integers, which won't exceed 10,000,000.
